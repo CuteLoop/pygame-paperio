@@ -1,22 +1,31 @@
 import os
 
+import os
+
 # Define the directory structure
 structure = {
-    "my_paperio_game": {
+    "PaperIoGame": {
         "assets": {
-            "images": ["player.png"],
-            "sounds": ["capture.wav"],
-            "fonts": ["game_font.ttf"],
+            "images": [],
+            "sounds": []
         },
         "src": {
-            "main.py": "",
-            "player.py": "",
-            "game.py": "",
-            "utils.py": "",
-            "settings.py": "",
-            "collision.py": "",
             "__init__.py": "",
+            "game.py": "",
+            "player.py": "",
+            "trail.py": "",
+            "territory.py": "",
+            "ui.py": "",
+            "utils.py": ""
         },
+        "tests": {
+            "__init__.py": "",
+            "test_game.py": "",
+            "test_player.py": "",
+            "test_territory.py": ""
+        },
+        ".gitignore": "",
+        "requirements.txt": "",
         "README.md": "",
         "requirements.txt": "",
         ".gitignore": """\
