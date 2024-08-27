@@ -37,3 +37,14 @@ my_paperio_game/
 └── .gitignore
 ```
 
+### create directory structure 
+
+```python ./create_dir_structure.py```
+
+### create virtual enviroment
+```
+py -3.12 -m venv venv
+.\venv\Scripts\activate
+pip install pygame
+```
+
