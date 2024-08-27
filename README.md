@@ -12,4 +12,28 @@ The goal is to capture territory by completing closed loops and avoiding collisi
 - **Multiplayer**: Compete against other players in real-time (future feature).
 
 ## Project Structure
+```
+my_paperio_game/
+│
+├── assets/
+│   ├── images/
+│   │   └── player.png
+│   ├── sounds/
+│   │   └── capture.wav
+│   └── fonts/
+│       └── game_font.ttf
+│
+├── src/
+│   ├── main.py
+│   ├── player.py
+│   ├── game.py
+│   ├── utils.py
+│   ├── settings.py
+│   ├── collision.py
+│   └── __init__.py
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
 
