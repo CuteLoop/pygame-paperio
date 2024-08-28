@@ -26,3 +26,8 @@ class Camera:
         y = max(-(self.world_rect.height - self.camera.height), min(0, y))
 
         self.camera = pygame.Rect(x, y, self.camera.width, self.camera.height)
+
+    def resize(self, width, height):
+        """Adjust the camera's size when the window size changes."""
+        self.camera.width = width
+        self.camera.height = height
